@@ -1,4 +1,4 @@
-# Advanced Task Management System
+# Task Management System
 
 ## Features
 
@@ -16,11 +16,10 @@
 
 # Backend Setup
 
+```bash
 cd backend
 npm install
 npm run dev
-
----
 
 # Frontend Setup
 
