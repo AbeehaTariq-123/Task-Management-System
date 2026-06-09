@@ -1,55 +1,56 @@
-# Task Management System
 
-## Features
+cat > README.md << 'EOF'
+# Task Management System ✅
 
-- Full CRUD Operations
-- JWT Authentication
-- MongoDB Database
-- Search Tasks
-- Task Progress Tracking
-- Responsive UI
-- REST API
-- React Frontend
-- Express Backend
+A full-featured Task Management System with **Dark Mode**, **Real-time Analytics**, **Task Comments**, **Activity Logs**, and **JWT Authentication**.
 
----
+## ✨ Features
 
-# Backend Setup
+### Core Features
+- ✅ Full CRUD Operations
+- ✅ JWT Authentication & Authorization
+- ✅ MongoDB Database
+- ✅ Search & Filter Tasks
+- ✅ Task Progress Tracking
+- ✅ Responsive UI (Mobile/Tablet/Desktop)
 
-cd backend
-npm install
-npm run dev
+### New Enhanced Features 🚀
+- 🌙 **Dark Mode** - Toggle between light/dark themes
+- 📊 **Dashboard Analytics** - Visual charts and statistics
+- 🏷️ **Task Categories** - Work, Personal, Shopping, Health, Education
+- ⚡ **Priority Levels** - Low, Medium, High
+- 📅 **Due Date & Reminders** - Never miss deadlines
+- 💬 **Task Comments** - Collaborate on tasks
+- 📝 **Activity Logs** - Track all changes
+- 👤 **User Profiles** - Customize profile pictures
+- 🔐 **Password Reset** - Secure password recovery
 
-# Frontend Setup
+## 🛠️ Tech Stack
 
-cd frontend
-npm install
-npm run dev
+### Frontend
+- React 18
+- Axios for API calls
+- Recharts for analytics
+- CSS3 with Dark Mode support
 
----
+### Backend
+- Node.js & Express.js
+- MongoDB with Mongoose
+- JWT for authentication
+- Bcrypt for password hashing
+- Nodemailer for emails
 
-# Tech Stack
+## 📸 Screenshots
 
-Frontend:
-- React
-- Axios
-- CSS
+### Light Mode
+![Light Mode Dashboard](https://via.placeholder.com/800x400?text=Light+Mode+Dashboard)
 
-Backend:
-- Node.js
-- Express.js
-- MongoDB
-- JWT
+### Dark Mode
+![Dark Mode Dashboard](https://via.placeholder.com/800x400?text=Dark+Mode+Dashboard)
 
----
+## 🚀 Quick Start
 
-# API Endpoints
-
-POST /api/tasks
-GET /api/tasks
-GET /api/tasks/:id
-PUT /api/tasks/:id
-DELETE /api/tasks/:id
-
-POST /api/auth/register
-POST /api/auth/login
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB (local or Atlas)
+- npm or yarn
